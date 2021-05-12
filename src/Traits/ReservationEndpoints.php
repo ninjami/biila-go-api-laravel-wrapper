@@ -12,7 +12,7 @@ trait ReservationEndpoints
      * @param array $query
      * @return \Illuminate\Http\Client\Response
      */
-    public function getReservationIndex(array $query = []): Response
+    public function getReservations(array $query = []): Response
     {
         return $this->get('reservations', $query);
     }

@@ -12,7 +12,7 @@ trait ShopEndpoints
      * @param array $query
      * @return \Illuminate\Http\Client\Response
      */
-    public function getShopIndex(array $query = []): Response
+    public function getShops(array $query = []): Response
     {
         return $this->get('shops', $query);
     }

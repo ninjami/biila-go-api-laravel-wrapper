@@ -12,7 +12,7 @@ trait PartnerEndpoints
      * @param array $query
      * @return \Illuminate\Http\Client\Response
      */
-    public function getPartnerIndex(array $query = []): Response
+    public function getPartners(array $query = []): Response
     {
         return $this->get('partners', $query);
     }

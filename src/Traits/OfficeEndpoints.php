@@ -12,7 +12,7 @@ trait OfficeEndpoints
      * @param array $query
      * @return \Illuminate\Http\Client\Response
      */
-    public function getOfficeIndex(array $query = []): Response
+    public function getOffices(array $query = []): Response
     {
         return $this->get('offices', $query);
     }
