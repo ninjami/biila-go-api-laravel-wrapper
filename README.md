@@ -1,6 +1,12 @@
 # Biila Go Partner API Laravel Wrapper
 
-This package provides a simple setup for using Biila Go Partner API with Laravel.
+This package provides a streamlined access to the Biila Go Partner API within your Laravel project.
+
+## Installation
+
+Run the following command in the root folder of your Laravel project.
+
+`composer require biila-go/laravel-api-wrapper`
 
 ## Config values
 
